@@ -47,10 +47,6 @@ export const AskTable = ({ asks }: { asks: [string, string][] }) => {
 
 
 
-
-
-
-
 function Ask({price, quantity, total, maxTotal}: {price: string, quantity: string, total: number, maxTotal: number}) {
     return <div
     style={{
